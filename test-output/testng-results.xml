@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-01T10:39:10 IST" name="Suite" finished-at="2023-09-01T10:41:22 IST" duration-ms="132148">
+    <groups>
+    </groups>
+    <test started-at="2023-09-01T10:39:10 IST" name="Test" finished-at="2023-09-01T10:41:22 IST" duration-ms="132148">
+      <class name="test.SkedulomaticEndtoEnd">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:test.SkedulomaticEndtoEnd@37d871c2]" started-at="2023-09-01T10:39:10 IST" name="initialize" finished-at="2023-09-01T10:39:59 IST" duration-ms="48545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="LoginTestCases(java.lang.String)[pri:0, instance:test.SkedulomaticEndtoEnd@37d871c2]" started-at="2023-09-01T10:40:02 IST" name="LoginTestCases" data-provider="DocFileRead" finished-at="2023-09-01T10:41:19 IST" duration-ms="77087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTestCases -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:test.SkedulomaticEndtoEnd@37d871c2]" started-at="2023-09-01T10:41:20 IST" name="Teardown" finished-at="2023-09-01T10:41:22 IST" duration-ms="2716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- test.SkedulomaticEndtoEnd -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

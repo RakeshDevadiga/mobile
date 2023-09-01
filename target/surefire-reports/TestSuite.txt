@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 784.108 sec <<< FAILURE!
+FilterPageTestCases(test.IntelomaticEndtoEnd)  Time elapsed: 93.138 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.IntelomaticEndtoEnd.FilterPageTestCases(IntelomaticEndtoEnd.java:328)
+
+PublishAllCollectorsTestCases(test.IntelomaticEndtoEnd)  Time elapsed: 80.936 sec  <<< FAILURE!
+java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false],
+	expected [true] but found [false]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+	at test.IntelomaticEndtoEnd.PublishAllCollectorsTestCases(IntelomaticEndtoEnd.java:484)
+
